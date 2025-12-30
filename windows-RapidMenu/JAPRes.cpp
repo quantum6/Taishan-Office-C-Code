@@ -1,0 +1,25 @@
+// JAPRes.cpp: implementation of the CJAPRes class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "JAPRes.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CJAPRes::CJAPRes()
+{
+	szMenu_Name   = "TSOffice快速起動";
+	szMenu_Launch = "起動TSOffice";
+	szMenu_Exit   = "快速起動を終了します";
+
+	szDefFont     = "MS UI Gothic";
+}
+
+CJAPRes::~CJAPRes()
+{
+
+}

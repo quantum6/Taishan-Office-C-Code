@@ -1,0 +1,25 @@
+// ENGRes.cpp: implementation of the CENGRes class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "ENGRes.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CENGRes::CENGRes()
+{
+	szMenu_Name   = "TSOffice RapidMenu";
+	szMenu_Launch = "Run TSOffice";
+	szMenu_Exit   = "Exit";
+
+	szDefFont     = "Arial";
+}
+
+CENGRes::~CENGRes()
+{
+
+}

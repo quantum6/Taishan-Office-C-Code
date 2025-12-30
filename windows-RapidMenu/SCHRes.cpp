@@ -1,0 +1,25 @@
+// SCHRes.cpp: implementation of the CSCHRes class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "RapidMenu.h"
+#include "SCHRes.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CSCHRes::CSCHRes()
+{
+	szMenu_Name   = "泰山Office";
+	szMenu_Launch = "启动";
+	szMenu_Exit   = "退出";
+
+	szDefFont     = "宋体";
+}
+ 
+CSCHRes::~CSCHRes()
+{
+}
+

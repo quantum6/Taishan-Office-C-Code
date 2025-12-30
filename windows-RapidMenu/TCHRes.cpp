@@ -1,0 +1,23 @@
+// TCHRes.cpp: implementation of the CTCHRes class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "TCHRes.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CTCHRes::CTCHRes()
+{
+	szMenu_Name   = "TSOffice 快速啟動";
+	szMenu_Launch = "啟動 TSOffice";
+	szMenu_Exit   = "結束快速啟動";
+
+	szDefFont     = "泰山明體";
+}
+
+CTCHRes::~CTCHRes()
+{
+}
